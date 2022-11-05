@@ -1,11 +1,16 @@
+* {
+    font-family: sans-serif;
+}
+
+
 body {
     position: relative;
     
 }
 
 header {
-    background-color: beige;
-position: fixed;
+    background-color: rgb(255, 255, 0);
+display: block;
 
 
 }
@@ -21,4 +26,8 @@ section {
 .link2 {
     position: absolute;
     right: 100px;
+}
+.link3 {
+    position: absolute;
+    right: 0px;
 }
