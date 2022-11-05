@@ -3,31 +3,20 @@
 }
 
 
-body {
-    position: relative;
-    
-}
+
 
 header {
-    background-color: rgb(255, 255, 0);
-display: block;
+    background-color: rgb(2, 175, 161);
 
+width: 100%;
+border-bottom: solid 10px;
+border-color: rgb(255, 210, 126);
+color: white;
 
 }
-section {
-    position: absolute;
-    right: 0;
-}
 
-.link1 {
-    position: absolute;
-    right: 200;
-}
-.link2 {
-    position: absolute;
-    right: 100px;
-}
-.link3 {
-    position: absolute;
-    right: 0px;
+.link-header{
+    display: inline;
+    position: relative;
+    left: 90%;
 }
