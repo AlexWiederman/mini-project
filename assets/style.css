@@ -18,16 +18,18 @@ header {
 margin: 0;
 position: fixed;
 
+
 }
 
 a {
     text-decoration: none;
     color: white;
+    padding: 0px 30px;
 }
 
 li {
     display: inline;
-    padding: 0px 30px;
+  
     text-decoration: none;
     margin: 0;
     
@@ -55,14 +57,44 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 50%;
+  padding: 20px;
 
 }
 
 h3 {
+    display: absolute;
     color: rgb(116, 79, 0);
+    
 }
 
 .contact-info{
+    background-color: rgb(255, 210, 126);
+    
+}
+
+section {
+    border-top: solid 5px black;
+    
+    padding-top: 20px;
+}
+
+.button {
+    position: relative;
+    left: 44%;
+    height: 50px;
+    width: 70px;
+    font-size: large;
+    margin: 0 auto;
+}
+
+/* centering everything on page? */
+form {
+    margin: 0 auto;
+  width: 300px;
+  border: dashed 5px;  
+}
+
+footer {
     
 }
